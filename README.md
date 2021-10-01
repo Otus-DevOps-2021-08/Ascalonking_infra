@@ -1,5 +1,4 @@
 # Ascalonking_infra
 Ascalonking Infra repository
-bastion_IP = 130.193.49.159
-someinternalhost_IP = 10.128.0.2
-#README
+bastion_IP = 84.201.129.102
+someinternalhost_IP = 10.128.0.24
