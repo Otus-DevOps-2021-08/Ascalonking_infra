@@ -1,0 +1,6 @@
+{
+    "folder_id": "b1gndtk21ufe5qbljq5h",
+    "source_image_family": "ubuntu-1604-lts",
+    "service_account_key_file": "./key.examples.json",
+    "ssh_username": "ubuntu"
+}
