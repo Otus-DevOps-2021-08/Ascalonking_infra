@@ -1,7 +1,7 @@
 {
-  "key_file": "./key.examples.json",
-  "folder_id": "b1gndtk21ufe5qbljq5h",
-  "subnet_id": "e9bo0v9bqn70k7e15tjr",
-  "zone": "ru-central1-a"
-  "source_image_family": "ubuntu-1604-lts"
+    "folder_id": "b1gndtk21ufe5qbljq5h",
+    "source_image_family": "ubuntu-1604-lts",
+    "service_account_key_file": "./key.examples.json",
+    "ssh_username": "USERNAME",
+    "subnet_id": "e2ldqu4uqc9cajilghug"
 }
