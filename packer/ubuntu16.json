@@ -2,9 +2,9 @@
     "builders": [
         {
             "type": "yandex",
-            "service_account_key_file": "/Users/kingascalon/Desktop/otus Packer/key.json",
-            "folder_id": "b1gndtk21ufe5qbljq5h",
-            "source_image_family": "ubuntu-1604-lts",
+            "service_account_key_file": "./key.examples.json",
+            "folder_id": "{{user `folder_id`}}",
+            "source_image_family": "{{user `source_image_family`}}",
             "image_name": "reddit-base-{{timestamp}}",
             "image_family": "reddit-base",
             "ssh_username": "ubuntu",
