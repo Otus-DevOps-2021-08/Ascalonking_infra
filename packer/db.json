@@ -25,10 +25,6 @@
     },
     {
       "type": "shell",
-      "script": "scripts/lock_guard.sh"
-    },
-    {
-      "type": "shell",
       "script": "scripts/install_mongodb.sh",
       "execute_command": "sudo {{.Path}}"
     }
