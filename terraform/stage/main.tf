@@ -4,7 +4,6 @@ provider "yandex" {
   folder_id                = var.folder_id
   zone                     = var.zone
 }
-
 module "app" {
   source          = "../modules/app"
   public_key_path = var.public_key_path
