@@ -1,4 +1,4 @@
-variable cloud_id{
+variable cloud_id {
   description = "b1gh0n7kf5b5nrdf2il4"
 }
 
@@ -21,7 +21,7 @@ variable image_id {
   description = "fd82nqd7gv5p6gdpcqfr"
 }
 
-variable subnet_id{
+variable subnet_id {
   description = "e9bo0v9bqn70k7e15tjr"
 }
 
