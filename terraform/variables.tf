@@ -7,7 +7,7 @@ variable folder_id {
 }
 
 variable zone {
-  description = "e9bo0v9bqn70k7e15tjr"
+  description = "e9bei7h8inc7venqurqc"
   # Значение по умолчанию
   default = "ru-central1-a"
 }
@@ -22,7 +22,7 @@ variable image_id {
 }
 
 variable subnet_id {
-  description = "e9bo0v9bqn70k7e15tjr"
+  description = "e9bei7h8inc7venqurqc"
 }
 
 variable service_account_key_file {

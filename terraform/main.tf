@@ -1,8 +1,8 @@
 provider "yandex" {
-  service_account_key_file = var.service_account_key_file
-  cloud_id                 = var.cloud_id
-  folder_id                = var.folder_id
-  zone                     = var.zone
+  token     = "AQAAAAAP7091AATuwR9ReM7BF0bxhu3Ff9oXwEc"
+  cloud_id  = "b1gh0n7kf5b5nrdf2il4"
+  folder_id = "b1gndtk21ufe5qbljq5h"
+  zone      = "ru-central1-a"
 }
 
 resource "yandex_compute_instance" "app" {

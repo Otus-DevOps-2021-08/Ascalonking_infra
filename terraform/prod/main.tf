@@ -1,8 +1,8 @@
 provider "yandex" {
-  service_account_key_file = var.service_account_key_file
-  cloud_id                 = var.cloud_id
-  folder_id                = var.folder_id
-  zone                     = var.zone
+  token     = "AQAAAAAP7091AATuwR9ReM7BF0bxhu3Ff9oXwEc"
+  cloud_id  = var.cloud_id
+  folder_id = var.folder_id
+  zone      = var.zone
 }
 module "app" {
   source          = "../modules/app"

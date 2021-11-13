@@ -22,7 +22,7 @@
   tags: app-tag
   become: true
   vars:
-   db_host: 10.132.0.2
+   db_host: 10.128.0.17
   tasks:
     - name: Add unit file for Puma
       copy:
@@ -33,9 +33,9 @@
     - name: Add config for DB connection
       template:
         src: templates/db_config.j2
-        dest: /home/appuser/db_config
-        owner: appuser
-        group: appuser
+        dest: /home/ubuntu/db_config
+        owner: ubuntu
+        group: ubuntu
 
     - name: enable puma
       systemd: name=puma enabled=yes
