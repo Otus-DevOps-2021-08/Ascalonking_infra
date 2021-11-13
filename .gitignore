@@ -4,7 +4,3 @@
 *.tfvars
 .terraform/
 key.json
-<<<<<<< HEAD
-=======
-variables.tf
->>>>>>> f147330964d69452330bfe7e5259345452f888ca
