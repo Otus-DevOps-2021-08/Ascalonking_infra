@@ -4,8 +4,8 @@
   become: true # <-- Выполнить задание от root
   tasks: # <-- Блок тасков (заданий), которые будут выполняться для данных хостов
     - name: Install packages
-    apt: "name={{ item }} state=present" #<-- Управляет apt-пакетами
-    whith_item:
-      - ruby-full
-      - ruby-bundler
-      - build-essential
+      apt: "name={{ item }} state=present" #<-- Управляет apt-пакетами
+      whith_item:
+        - ruby-full
+        - ruby-bundler
+        - build-essential
