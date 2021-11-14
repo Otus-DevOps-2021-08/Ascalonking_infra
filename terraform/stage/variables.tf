@@ -52,3 +52,8 @@ variable db_disk_image {
   description = "fd82nqd7gv5p6gdpcqfr"
   default     = "reddit-db-base"
 }
+
+variable "db_internal_ip" {
+  default     = "127.0.0.1"
+  description = "internal IP of Database server"
+}

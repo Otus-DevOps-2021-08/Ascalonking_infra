@@ -45,13 +45,11 @@
       version: monolith
     tags: deploy-tag
     notify: reload puma
-
   - name: Bundle install
     bundler:
      state: present
      chdir: /home/ubuntu/reddit
     tags: deploy-tag
-
   handlers:
   - name: restart mongod
     become: true
