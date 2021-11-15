@@ -1,10 +1,22 @@
+create-service-acc.sh
+*.swp
+test.yaml
+createinst.sh
 *.tfstate
 *.tfstate.*.backup
 *.tfstate.backup
 *.tfvars
+*.lock.hcl
 .terraform/
-key.json
-<<<<<<< HEAD
-=======
-variables.tf
->>>>>>> f147330964d69452330bfe7e5259345452f888ca
+.keys
+.vscode
+repo*/
+terraform*/*
+*.lock.hcl*
+.gitignore
+packer/variables.json
+last_etag=
+recursive=
+wait_for_change=
+create-service-acc.sh
+terraform/stage/variables.tf

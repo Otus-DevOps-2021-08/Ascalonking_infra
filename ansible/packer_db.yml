@@ -1,0 +1,23 @@
+---
+- name: Install and configure MongoDB
+  hosts: all
+  become: true
+  tasks:
+  - name: Set key
+    apt_key:
+      id:
+      keyserver: keyserver.ubuntu.com
+  - name: Get MongoDB package
+    apt_repository:
+      repo: deb [ arch=amd64,arm64 ] https://repo.mongodb.org/apt/ubuntu xenial/mongodb-org/4.2 multiverse
+      state: present
+
+  - name: install mongoDB
+    apt:
+      name: mongodb-org
+      state: present
+
+  - name: Config service MongoDB
+    systemd:
+      name: mongod
+      enabled: yes

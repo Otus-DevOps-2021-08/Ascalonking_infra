@@ -7,7 +7,7 @@ variable folder_id {
 }
 
 variable zone {
-  description = "e9bo0v9bqn70k7e15tjr"
+  description = "e9bei7h8inc7venqurqc"
   # Значение по умолчанию
   default = "ru-central1-a"
 }
@@ -22,7 +22,7 @@ variable image_id {
 }
 
 variable subnet_id {
-  description = "e9bo0v9bqn70k7e15tjr"
+  description = "e9bei7h8inc7venqurqc"
 }
 
 variable service_account_key_file {
@@ -51,4 +51,9 @@ variable app_disk_image {
 variable db_disk_image {
   description = "fd82nqd7gv5p6gdpcqfr"
   default     = "reddit-db-base"
+}
+
+variable "db_internal_ip" {
+  default     = "127.0.0.1"
+  description = "internal IP of Database server"
 }

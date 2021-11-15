@@ -6,5 +6,5 @@ variable app_disk_image {
   default     = "reddit-app-base"
 }
 variable subnet_id {
-  description = "e9bo0v9bqn70k7e15tjr"
+  description = "e9bei7h8inc7venqurqc"
 }
