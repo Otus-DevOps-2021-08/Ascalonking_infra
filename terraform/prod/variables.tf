@@ -29,8 +29,8 @@ variable service_account_key_file {
   description = "key.json"
 }
 
-variable "private_key_for_conn_provisioner" {
-  description = "private_key_for_conn_provisioner"
+variable "private_key" {
+  description = "/Users/kingascalon/.ssh/yc"
 }
 
 variable "puma_port" {
@@ -51,4 +51,9 @@ variable app_disk_image {
 variable db_disk_image {
   description = "fd82nqd7gv5p6gdpcqfr"
   default     = "reddit-db-base"
+}
+
+variable "db_internal_ip" {
+  default     = "127.0.0.1"
+  description = "internal IP of Database server"
 }
