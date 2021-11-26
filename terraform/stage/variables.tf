@@ -29,8 +29,8 @@ variable service_account_key_file {
   description = "key.json"
 }
 
-variable "private_key_for_conn_provisioner" {
-  description = "private_key_for_conn_provisioner"
+variable "private_key" {
+  description = "/Users/kingascalon/.ssh/yc"
 }
 
 variable "puma_port" {

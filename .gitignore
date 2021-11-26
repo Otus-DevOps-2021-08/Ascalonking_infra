@@ -20,3 +20,5 @@ recursive=
 wait_for_change=
 create-service-acc.sh
 terraform/stage/variables.tf
+jdauphant.nginx
+~/.ansible/vault.key

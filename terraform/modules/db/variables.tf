@@ -8,3 +8,6 @@ variable db_disk_image {
 variable subnet_id {
   description = "e9bei7h8inc7venqurqc"
 }
+variable "private_key" {
+  description = "/Users/kingascalon/.ssh/yc"
+}
