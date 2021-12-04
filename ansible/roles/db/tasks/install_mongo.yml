@@ -1,4 +1,3 @@
----
 - name: Add APT key
   apt_key:
     id: E162F504A20CDF15827F718D4B7C549A058F8B6B
